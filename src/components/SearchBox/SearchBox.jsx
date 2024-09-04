@@ -25,9 +25,4 @@ const SearchBox = () => {
   );
 };
 
-SearchBox.propTypes = {
-  filter: PropTypes.string.isRequired,
-  handleFilterChange: PropTypes.func.isRequired,
-};
-
 export default SearchBox;
